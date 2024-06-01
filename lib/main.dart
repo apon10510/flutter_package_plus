@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_package_plus/http/http.dart';
+import 'package:flutter_package_plus/image_picker/image_picker.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         useMaterial3: true,
       ),
-      home: const HttpFlutter(),
+      home: const ImagePickerFlutter(),
     );
   }
 }
