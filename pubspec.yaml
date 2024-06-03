@@ -17,6 +17,7 @@ dependencies:
   dio: ^5.4.3+1
   permission_handler: ^11.3.1
   # geolocator: ^12.0.0 # the package work fine but when i am build app show error any one help in future
+  go_router: ^14.1.4
 
 dev_dependencies:
   flutter_test:
