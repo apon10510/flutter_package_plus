@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'dio/dio.dart';
+import 'package:flutter_package_plus/dio/dio.dart';
 
 void main() {
   runApp(const MyApp());
