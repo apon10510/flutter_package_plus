@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_package_plus/go_router/router.dart';
+import 'font_awesome_flutter/font_awesome_flutter.dart';
 
 void main() {
   runApp(const MyApp());
@@ -10,12 +10,12 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp.router(
+    return MaterialApp(
       title: 'Flutter Package',
       theme: ThemeData(
         useMaterial3: true,
       ),
-      routerConfig: AppRouter().goRouter,
+      home: const FontAwesomeFlutterFlutter(),
     );
   }
 }
