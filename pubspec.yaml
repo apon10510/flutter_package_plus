@@ -18,6 +18,7 @@ dependencies:
   permission_handler: ^11.3.1
   # geolocator: ^12.0.0 # the package work fine but when i am build app show error any one help in future
   go_router: ^14.1.4
+  flutter_native_splash: ^2.4.0
 
 dev_dependencies:
   flutter_test:
@@ -29,10 +30,18 @@ flutter:
 
   uses-material-design: true
 
-  # assets:
-  #   - images/a_dot_burr.jpeg
+  assets:
+    - assets/apon.jpg
   #   - images/a_dot_ham.jpeg
 
+flutter_native_splash:
+  android: true
+  ios: true
+  web: true
+  image: assets/apon.jpg
+  color: "#4e94e0"
+  ios_content_mode: scaleAspectFill
+  android_gravity: center
 
   # For details regarding adding assets from package dependencies, see
   # https://flutter.dev/assets-and-images/#from-packages
