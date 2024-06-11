@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'font_awesome_flutter/font_awesome_flutter.dart';
+import 'package:flutter_package_plus/fl_chart/fl_pie_chart.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         useMaterial3: true,
       ),
-      home: const FontAwesomeFlutterFlutter(),
+      home: const FlPieChartFlutter(),
     );
   }
 }

@@ -20,6 +20,7 @@ dependencies:
   go_router: ^14.1.4
   flutter_native_splash: ^2.4.0
   font_awesome_flutter: ^10.7.0
+  fl_chart: ^0.68.0
 
 dev_dependencies:
   flutter_test:
